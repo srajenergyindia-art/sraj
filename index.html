@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="SRAJ Group — diversified businesses in electric vehicles, petrochemicals, construction, minerals and renewable energy. Established in 2009.">
+<meta name="theme-color" content="#071b35">
+<title>SRAJ Group | Since 2009</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#071b35;--navy2:#0c2a4e;--gold:#c99a3b;--paper:#f6f8fb;--ink:#14263c;--muted:#617187;--line:#e1e7ef}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Manrope,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6}a{color:inherit;text-decoration:none}
+.wrap{width:min(1160px,92%);margin:auto}
+.top{background:#041326;color:#dce5f1;font-size:13px}.top .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:9px 0}.gold{color:#e0b85f;font-weight:800;letter-spacing:1.5px}
+header{position:sticky;top:0;z-index:20;background:#fffFfdf2;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:13px}.brand img{width:190px;max-width:35vw;height:auto;object-fit:contain}.brand-copy{border-left:1px solid var(--line);padding-left:13px}.brand-copy b{display:block;color:var(--navy);font-size:17px;letter-spacing:2px}.brand-copy small{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:10px}
+nav{display:flex;gap:22px;align-items:center;font-size:13px;font-weight:800;color:#33475f}nav a:hover{color:#a8791d}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:#101e30;padding:13px 21px;border-radius:7px;font-weight:800;transition:.2s}.btn:hover{background:#e0b85f;transform:translateY(-2px)}.btn.outline{background:transparent;border:1px solid #ffffff80;color:#fff}
+.hero{background:radial-gradient(circle at 83% 20%,#244c78 0,transparent 35%),linear-gradient(115deg,#06162b,#0d3158 72%,#102d4b);color:#fff;overflow:hidden;position:relative}
+.hero .wrap{display:grid;grid-template-columns:1.08fr .92fr;gap:48px;align-items:center;padding:92px 0 86px}.eyebrow{color:#e2bd6d;font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(42px,5.4vw,68px);line-height:1.06;letter-spacing:-2px;margin:17px 0 20px;max-width:740px}h1 span{color:#e0b85f}.hero p{font-size:18px;color:#d5e0ed;max-width:650px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-visual{min-height:330px;display:grid;place-items:center;position:relative}.orbit{width:min(340px,75vw);aspect-ratio:1;border:1px solid #ffffff38;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 0 34px #ffffff08,0 0 0 68px #ffffff05;position:relative}.orbit img{width:86%;height:auto;filter:drop-shadow(0 22px 25px #0005)}.since{position:absolute;right:-5px;bottom:26px;background:#e0b85f;color:#132238;padding:13px 18px;border-radius:8px;font-weight:900;box-shadow:0 12px 30px #0004}
+.trust{background:#c99a3b;color:#142238}.trust .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center;padding:19px 0}.trust b{display:block;font-size:18px}.trust span{font-size:12px;font-weight:700;opacity:.8}
+section{padding:78px 0}.section-head{text-align:center;max-width:760px;margin:0 auto 38px}.section-head .eyebrow{color:#a8791d}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.13;color:var(--navy);margin:10px 0}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid var(--line);border-radius:16px;background:#fff;padding:27px;box-shadow:0 12px 34px #102b4a0a;display:flex;flex-direction:column;min-height:265px;transition:.2s}.card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #102b4a16;border-color:#d5bd8a}.symbol{width:52px;height:52px;border-radius:13px;background:#f7f0e2;display:grid;place-items:center;font-size:25px;margin-bottom:18px}.card h3{color:var(--navy);font-size:20px;line-height:1.25;margin:0 0 9px}.card p{color:var(--muted);font-size:14px;margin:0 0 20px}.card a{margin-top:auto;color:#956b1d;font-size:13px;font-weight:900}.card a span{font-size:18px;margin-left:5px}
+.about{background:var(--paper)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about-panel{background:var(--navy);color:#fff;padding:36px;border-radius:18px}.about-panel .eyebrow{display:block;margin-bottom:12px}.about-panel h3{font-size:30px;line-height:1.2;margin:0 0 12px}.about-panel p{color:#c9d7e7;margin:0}.checks{display:grid;gap:17px}.check{display:flex;gap:13px}.tick{flex:none;width:28px;height:28px;border-radius:50%;background:#f6eddb;color:#8a641e;display:grid;place-items:center;font-weight:900}.check b{display:block;color:var(--navy)}.check span{color:var(--muted);font-size:14px}
+.contact{background:linear-gradient(110deg,#0b2c50,#071b35);color:#fff}.contact .wrap{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}.contact h2{font-size:34px;margin:0 0 7px}.contact p{margin:0;color:#cbd8e7}.contact-links{display:flex;gap:12px;flex-wrap:wrap}.contact-links a:not(.btn){border:1px solid #ffffff55;border-radius:7px;padding:12px 16px;font-weight:700}
+footer{background:#041326;color:#b9c7d8;padding:27px 0;font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot b{color:#e0b85f}
+@media(max-width:900px){.nav{flex-wrap:wrap;padding:12px 0}.nav nav{order:3;width:100%;overflow:auto;white-space:nowrap;padding:5px 0 10px}.hero .wrap{grid-template-columns:1fr;padding:65px 0}.hero-visual{min-height:270px}.cards{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.brand img{width:145px}.brand-copy b{font-size:13px}.brand-copy small{font-size:8px}.nav>.btn{display:none}.hero .wrap{gap:24px}.hero-visual{min-height:230px}.orbit{width:220px}.trust .wrap{grid-template-columns:1fr;gap:10px}.cards,.about-grid{grid-template-columns:1fr}section{padding:58px 0}.contact h2{font-size:28px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span class="gold">SRAJ GROUP • ESTABLISHED 2009</span><span>Serving customers and projects across India</span></div></div>
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><img src="assets/sraj-wordmark.png" alt="SRAJ logo"><span class="brand-copy"><b>SRAJ GROUP</b><small>SINCE 2009</small></span></a>
+<nav aria-label="Main navigation"><a href="#home">Home</a><a href="#businesses">Our Businesses</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="btn" href="tel:+919667972951">Contact Us</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div><div class="eyebrow">Diversified businesses • One group</div><h1>Building businesses.<br><span>Connecting possibilities.</span></h1>
+<p>SRAJ Group is a diversified business group established in 2009, with business interests spanning electric mobility, petrochemicals, construction, minerals and renewable energy.</p>
+<div class="actions"><a class="btn" href="#businesses">Explore Our Businesses</a><a class="btn outline" href="mailto:srajcn2009@gmail.com">Email SRAJ Group</a></div></div>
+<div class="hero-visual"><div class="orbit"><img src="assets/sraj-wordmark.png" alt="SRAJ"></div><div class="since">TRUST • GROWTH • SINCE 2009</div></div>
+</div></section>
+<div class="trust"><div class="wrap"><div><b>Since 2009</b><span>Established group</span></div><div><b>5 Business Verticals</b><span>Diverse capabilities</span></div><div><b>Pan-India Presence</b><span>Serving across India*</span></div></div></div>
+<section id="businesses"><div class="wrap"><div class="section-head"><div class="eyebrow">Our businesses</div><h2>Five divisions. A shared commitment to progress.</h2><p>Explore each SRAJ Group business through its dedicated website.</p></div>
+<div class="cards">
+<article class="card"><div class="symbol">⚡</div><h3>SRAJ Energy India</h3><p>Electric three-wheelers and electric mobility solutions.</p><a href="divisions/sraj-energy-india.html">Explore EV business <span>→</span></a></article>
+<article class="card"><div class="symbol">⛽</div><h3>S Raj Aramco Biopetrochem India</h3><p>Petrol pump and fuel-station business enquiries across Uttar Pradesh and Bihar.</p><a href="divisions/s-raj-aramco-biopetrochem-india.html">Explore petrochem business <span>→</span></a></article>
+<article class="card"><div class="symbol">🏗️</div><h3>SRAJ Construction & Supplier</h3><p>Infrastructure and construction services, with experience references including Airtel, BSNL, L&amp;T and Ajnara.</p><a href="divisions/sraj-construction-supplier.html">Explore construction <span>→</span></a></article>
+<article class="card"><div class="symbol">💧</div><h3>SRAJ Minerals</h3><p>Manufacturer and supplier of packaged ionised water bottles and gravels.</p><a href="divisions/sraj-minerals.html">Explore minerals <span>→</span></a></article>
+<article class="card"><div class="symbol">☀️</div><h3>SRAJ Renewable Energy</h3><p>Solar panel solutions for industries, focused on efficiency and cleaner energy.</p><a href="divisions/sraj-renewable-energy.html">Explore renewable energy <span>→</span></a></article>
+</div></div></section>
+<section class="about" id="about"><div class="wrap about-grid">
+<div class="about-panel"><span class="eyebrow">Our journey</span><h3>A group built on enterprise since 2009.</h3><p>Across multiple sectors, SRAJ Group brings together businesses that serve mobility, energy, infrastructure, materials and fuel-related requirements.</p></div>
+<div class="checks"><div class="check"><div class="tick">✓</div><div><b>Diversified business portfolio</b><span>Five dedicated business divisions with their own services and customer enquiry channels.</span></div></div><div class="check"><div class="tick">✓</div><div><b>Customer and project focused</b><span>Connect directly with the relevant SRAJ business for product, service and project discussions.</span></div></div><div class="check"><div class="tick">✓</div><div><b>One group identity</b><span>All five divisions are connected through the SRAJ Group name and its journey since 2009.</span></div></div></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div><div class="eyebrow">Get in touch</div><h2>Let's build something together.</h2><p>Contact SRAJ Group or visit the relevant business website to send an enquiry.</p></div><div class="contact-links"><a href="tel:+919667972951">+91 96679 72951</a><a href="mailto:srajcn2009@gmail.com">srajcn2009@gmail.com</a><a class="btn" href="mailto:srajcn2009@gmail.com?subject=SRAJ%20Group%20Enquiry">Send an Enquiry</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> <b>SRAJ GROUP</b>. All rights reserved.</span><span>Established 2009 • India</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
